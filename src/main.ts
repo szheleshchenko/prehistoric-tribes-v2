@@ -1,7 +1,4 @@
-import { appConfig } from './configuration';
+import { Game } from './app/game';
+import './styles.css';
 
-const title = document.getElementById('title');
-
-if (title) {
-  title.innerText = appConfig.title;
-}
+const game = new Game();
